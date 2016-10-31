@@ -3,6 +3,11 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{scalerel}
+
+\DeclareMathOperator*{\Bigcdot}{\scalerel*{\cdot}{\bigodot}}
+
 
 \title{Supplemental Instructions}
 \author{Niklas Gustafsson \\ 
@@ -14,7 +19,7 @@
 
 \begin{document}
 \maketitle
-In progress!
+
 \subsection*{Studieteknik}
 Diskutera i cirka fem minuter vilka studietekniker som fungerat bäst för er under läsperiod ett. Förslagsvis kan varje gruppmedlem svara på följande:
 \begin{itemize}
@@ -28,10 +33,93 @@ Diskutera i cirka fem minuter vilka studietekniker som fungerat bäst för er un
 Sammanfatta det ni kommer fram till, vi fortsätter diskussionen i helgrupp. 
 
 \subsection*{Vektorer}
-\subsection*{Baser}
-\subsection*{Koordinater}
+
+\subsubsection*{1.}
+Låt $\vec{u} = \begin{bmatrix} 1 \\ 3 \end{bmatrix}$ och $\vec{v} = \begin{bmatrix} 2 \\ 5 \end{bmatrix}$. Beräkna följande:
+\begin{itemize}
+\item[a) ] $\vec{u} + \vec{v}$.
+\item[b) ] $\vec{u} - \vec{v}$.
+\item[c) ] $3 \cdot \vec{u} + \vec{v}$.
+\item[d) ] $2 \cdot(\vec{v} - 2 \cdot \vec{u})$
+\item[e) ] $4 \cdot \vec{u} -2 \cdot (\vec{u} -3 \cdot \vec{v})$
+\end{itemize} 
+
+\subsubsection*{2.}
+Skriv vektorerna $\vec{u}$, $\vec{v}$, $\vec{w}$ på koordinatform.
+
+\setlength{\unitlength}{0.75mm}
+\begin{picture}(80,50)
+
+\multiput(0,0)(5,0){17}
+{\line(0,1){45}}
+\multiput(0,0)(0,5){10}
+{\line(1,0){80}}
+
+\put(26,36){$\vec{v}$}
+\put(21,6){$\vec{u}$}
+\put(66,31){$\vec{w}$}
+\put(35,21){$\text{(0,0)}$}
+\put(34,24){$\Bigcdot$}
+\thicklines
+\put(35,25){\vector(3,1){30}}
+\put(35,25){\vector(-1,3){5}}
+\put(35,25){\vector(-1,-2){10}}
+\end{picture}
+
+\noindent
+\begin{itemize}
+\item[a) ] Beräkna och rita ut $\vec{w} + \vec{v}$. Vad kallas $\vec{w} + \vec{v}$ för?
+\item[b) ] Beräkna och rita ut $\vec{w} - \vec{v}$. 
+\item[c) ] Beräkna och rita ut $\vec{u}$ + $\vec{v}$ + $\vec{w}$.
+\item[d) ] Mät längden på samtliga vektorer och verifiera att de stämmer igenom att även beräkna längderna. 
+\item[e) ] Beräkna vinkeln mellan $\vec{v}$ och $\vec{u}$. 
+\item[f) ] Vad innebär det att två vektorer är ortogonala? Är några av vektorerna i koordinatsystemet ortogonala? Kan ni bevisa det?
+\end{itemize}
+
+\subsubsection*{3.}
+Låt $\vec{v} =  \begin{bmatrix} 4 \\ 1 \end{bmatrix}$ och $\vec{u} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$
+\begin{itemize}
+\item[a) ] Undersök om $\vec{v}$ och $\vec{u}$ är enhetsvektorer.
+\item[b) ] Beräkna $||4 \cdot \vec{v}||$ och $||(-2) \cdot \vec{u}||$.
+\item[c) ] Låt $\vec{x} = \vec{u} + \vec{v}$, bestäm $\vec{x}$ och $||\vec{x}||$.
+\item[d) ] Vad är vinkeln mellan $\vec{u}$ och $\vec{v}$?
+\item[e) ] Inför ett koordinatsystem i planet samt definiera lämpliga baser och origo. Rita $\vec{u}$, $\vec{v}$ och $\vec{x}$. Verifiera sedan svaren i de tidigare deluppgifterna igenom mätning. 
+\end{itemize}
+
+\subsubsection*{4.}
+Antag att ni befinner er i en luftballong påväg mot nordpolen. Under vindstilla förhållanden färdas ni med en hastighet av 30 km/h. Antag att det blåser en vind från väst med en hastighet av 10 km/h.
+\begin{itemize}
+\item[a) ] Vad blir er fart och hur mycket avviker er kurs rakt norrut?
+\item[b) ] Antag att vinden istället är nordvästlig. Vad blir er fart och hur mycket avviker er kurs rakt norrut?
+\item[c) ] Antag återigen att vinden är västlig. För att inte hamna ur kurs, krascha, och gå samma öde till mötes som Salomon August Andrées polarexpedition måste ni korrigera er kurs! Hur mycket måste ni ändra er riktning för att återigen flyga rakt norrut? Vad blir då er verkliga hastighet?
+\end{itemize}
+
+\subsubsection*{5.}
+Låt $e_x = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}$, $e_y = \begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}$ och $e_z = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$ vara en ON-bas i rummet ($R^3$).
+\begin{itemize}
+\item[a) ] Vilka egenskaper har en ON-bas och vad innebär det för vektorerna ovan?
+\item[b) ] Verifiera dessa egenskaper.
+\end{itemize}
+
+Låt $\vec{v} = \begin{bmatrix} 3 \\ 5 \\ -1 \end{bmatrix}$ och $\vec{u} = \begin{bmatrix} -2 \\ 7 \\ 1 \end{bmatrix}$. 
+\begin{itemize} 
+\item[c) ] Skriv $\vec{v}$ och $\vec{u}$ som linjärkombinationer av $e_x$, $e_y$ och $e_z$.
+\item[d) ] Beräkna $\vec{v} + \vec{u}$.
+\item[e) ] Om ni har the drawing skills - rita! :-) Haha fast ne. 
+\end{itemize}
 
 %Kommande
 \subsection*{Skalärprodukt}
-\subsection*{Ortogonal projeter vilka ktion}
+\noindent
+Det är möjligt att ni inte har hunnit gå igenom skalärprodukt fullt ut ännu. Om så är fallet så är det här dock ett ypperligt tillfälle att börja titta lite på vad det är och om inte annat förbereda er inför nästa föreläsning. Använd läroboken som stöd och ställ gärna frågor!
+
+\subsubsection*{6.}
+Låt $\vec{u}$ och $\vec{v}$ vara två stycken vektorer.
+\begin{itemize}
+\item[a) ] Skriv upp definitionen för skalärprodukten mellan $\vec{u}$ och $\vec{v}$.
+\item[b) ] Beräkna skalärprodukten mellan $\vec{u} = \begin{bmatrix} 1 \\ 4 \end{bmatrix}$ och $\vec{v} = \begin{bmatrix} 2 \\ 2 \end{bmatrix}.$
+\item[c) ] Vad är resultatet av en skalärprodukt? Det vill säga, vad ger formeln er för någonting?
+\item[d) ] Beräkna skalärprodukten av $\vec{v} \cdot \vec{v}$.
+\item[e) ] Vad säger det er om skalärprodukten mellan $\vec{u}$ och $\vec{v}$ blir noll?
+\end{itemize}
 \end{document}
