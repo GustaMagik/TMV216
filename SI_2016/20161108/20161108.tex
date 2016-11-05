@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{scalerel}
+
+\DeclareMathOperator*{\Bigcdot}{\scalerel*{\cdot}{\bigodot}}
+
+
+\title{Supplemental Instructions}
+\author{Niklas Gustafsson \\ 
+		\small{niklgus@student.chalmers.se}
+}
+\date{
+      2016-11-08
+     }
+
+\begin{document}
+\maketitle
+\subsubsection*{1.}
+Låt $\vec{u}$ och $\vec{v}$ vara två stycken vektorer.
+\begin{itemize}
+\item[a) ] Skriv upp definitionen för skalärprodukten mellan $\vec{u}$ och $\vec{v}$.
+\item[b) ] Beräkna skalärprodukten mellan $\vec{u} = \begin{bmatrix} 1 \\ 4 \end{bmatrix}$ och $\vec{v} = \begin{bmatrix} 2 \\ 2 \end{bmatrix}.$
+\item[c) ] Vad är resultatet av en skalärprodukt? Det vill säga, vad ger formeln er för någonting?
+\item[d) ] Beräkna skalärprodukten av $\vec{v} \cdot \vec{v}$.
+\item[e) ] Vad säger det er om skalärprodukten mellan $\vec{u}$ och $\vec{v}$ blir noll?
+\end{itemize}
+
+%Ortogonal projektion
+\subsubsection*{2.}
+Låt L vara en linje i planet med riktningsvektor $\vec{u} = \begin{bmatrix} 3 \\ 3 \end{bmatrix}$. Låt $\vec{w} = \begin{bmatrix} 0 \\ 2 \end{bmatrix}$ och låt $\vec{w} = \begin{bmatrix} -4 \\ 0 \end{bmatrix}$ .
+\begin{itemize}
+\item[a) ] Vad är vinkeln $\alpha$ mellan $\vec{u}$ och $\vec{v}$?
+\item[b) ] Vad är den ortogonala projektionen av $\vec{v}$ på L?
+\item[c) ] Vad är den ortogonala projektionen av $\vec{w}$ på L?
+\item[d) ] Vad blir längderna på dessa projektioner?
+\item[e) ] Bevisa att den ortogonala projektionen av en vektor $\vec{v}$ på en linje med riktningsvektor $\vec{u}$ alltid är nollvektorn om de är ortogonala mot varandra. Kan ni även motivera detta grafiskt? 
+\item[f) ] Bevisa att speglingen av en vektor $\vec{v}$ på en linje med riktningsvektor $\vec{u}$ alltid är $-\vec{v}$ om de är ortogonala mot varandra. Kan ni även motivera detta grafiskt?
+\end{itemize}   
+
+\subsubsection*{3.}
+Antag att ni har en linje $y = 4 \cdot x + 5$ och en vektor $\vec{v} = \begin{bmatrix} -1 \\ 3 \end{bmatrix}$. Parallelförflytta denna vektor så att den har sin utgångspunkt i samma punkt som linjen korsar y-axeln.
+\begin{itemize}
+\item[a) ] Vad blir den ortogonala projektionen av vektorn på linjen efter förflyttningen? Tips: ta fram riktningsvektorn för linjen. 
+\item[b) ] Vad blir speglingen av vektorn i linjen?
+\end{itemize}
+
+\subsubsection*{4.}
+Antag att ni har punkterna $P_0 = (1,2,3)$, $P_1 = (-1,-3,4)$ och $P_2 = (0,1,2)$.
+\begin{itemize}
+\item[a) ] Bestäm ekvationerna för de tre linjerna $L_1$, $L_2$ och $L_3$ som har riktningsvektorerna $\vec{P_0 P_1}$, $\vec{P_0 P_2}$ och $\vec{P_1 P_2}$. Skriv upp linjernas ekvationer både på normalform och parameterform. 
+\item[b) ] Är några av linjerna parallella?
+\item[c) ] Är några av linkerna vinkelräta mot varandra?
+\item[d) ] Bestäm en riktningsvektor för en linje så att den blir ortogonal mot $L_1$. 
+\end{itemize}
+
+\end{document}
