@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.4)  7 NOV 2016 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.4)  7 NOV 2016 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -552,7 +552,7 @@ e
 ))
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 (./20161108_facit.aux) ) 
 Here is how much of TeX's memory you used:
  3500 strings out of 494374
@@ -575,10 +575,10 @@ m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 20161108_facit.pdf (2 pages, 100654 bytes).
+Output written on 20161108_facit.pdf (3 pages, 106588 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 173 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
