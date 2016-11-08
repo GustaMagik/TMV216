@@ -1,0 +1,78 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{SI LV1 Linjär Algebra}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\item Vektorer
+\begin{enumerate}
+\item $u+v = \begin{bmatrix} 1+2 \\ 3+5 \end{bmatrix}$ = $\begin{bmatrix} 3\\ 8 \end{bmatrix}$
+\item $u-v = \begin{bmatrix}1-2 \\ 3-5 \end{bmatrix}$ = $\begin{bmatrix}\text{-}1 \\ \text{-}2 \end{bmatrix}$
+\item $3u+v = \begin{bmatrix} 3*1 + 2 \\ 3*3 + 5\end{bmatrix}$ = $\begin{bmatrix} 5 \\ 14\end{bmatrix}$
+\item $2(v-2u) =\begin{bmatrix} 2*(2-2*1) \\ 2*(5-2*3)\end{bmatrix}$ =$\begin{bmatrix} 0 \\ \text{-}2\end{bmatrix}$
+\item $4u-2(u-3v) = \begin{bmatrix}4*1-2*(1-3*2) \\ 4*3-2*(3-3*5)\end{bmatrix} = \begin{bmatrix}14\\ 36\end{bmatrix}$
+\end{enumerate}
+
+\item Vektorer
+\begin{enumerate}
+\item $w+v = \begin{bmatrix}6+(\text{-}1)\\ 2+3\end{bmatrix} =\begin{bmatrix} 5\\ 5 \end{bmatrix}$ Linjärkombination
+\item $w-v = \begin{bmatrix}6-(\text{-}1)\\ 2-3\end{bmatrix} = \begin{bmatrix} 7\\ \text{-}1\end{bmatrix}$
+\item $u+v+w= \begin{bmatrix}\text{-}2+6+(\text{-}1)\\ \text{-}4+2+3\end{bmatrix} = \begin{bmatrix}3\\ 1\end{bmatrix}$
+\item $||v||=\sqrt{10}, ||w||=\sqrt{40}, ||u||=\sqrt{20}$
+\item Använd cosinussatsen $c^2=a^2+b^2-2ab\cdot cos \theta$. C är avståndet mellan ändpunkterna på $\vec{u}$ och $\vec{v}$. Lös ut $\theta$ med hjälp av arccos-funktionen. 
+\item 90 grader från varandra, skalärprodukt = 0, sann för $\vec{v}, \vec{w}$. Alternativt använd cosinussatsen och se att den blir noll, dvs vinkeln är 90 grader. 
+\end{enumerate}
+
+\item Vektorer
+\begin{enumerate}
+\item Kallas för enhetsvektor som längden är ett
+\item $||4u||=\sqrt{16^{2}+4^{2}}=\sqrt{272},\ ||\text{-}2v||=\sqrt{(\text{-}4)^{2}+(\text{-}2)^{2}}=\sqrt{20}$ 
+\item $x = \begin{bmatrix} 2\\ 2 \end{bmatrix}, ||x||= \sqrt{2^{2}+2^{2}}=2\cdot\sqrt{2}$
+\item Cosinussatsen ger att $\theta = 26.6$ grader.
+\item Rita och se att det stämmer.
+\end{enumerate}
+
+\item Vektorer
+\begin{enumerate}
+\item Trigonometri ger att $cos \theta = || \vec{v} || / || \vec{u} + \vec{v} || $. Det ger $\theta = 18,4$ grader. 
+\item Lös på samma vis som a). 
+\item Vi vill motverka de 10 i västlig riktning, resterande av vektorn vill vi ha i nordlig riktning så $\sqrt{30^{2}-10^{2}} = 20\sqrt{2}$ (nordligt bidrag), ressulterande vektor $\begin{bmatrix} -10 \\ 20\sqrt{2} \end{bmatrix}$. Ni har nu $\vec{u} + \vec{v}$. Vinkeln löser ni lätt ut igenom att måla upp allt och använda trigonometri, det ger att $\alpha = 19,5$ grader. 
+\end{enumerate}
+
+\item Vektorer
+\begin{enumerate}
+\item Ortonormerad bas. Dvs alla vectorer är ortogonala från varandra med längd 1. De vektorerna är 1 i längd i x, y respektive z riktningarna.
+\item Finn att skalärprodukterna för alla kombinationer av dessa vektorer är 0.
+\item $v=3e_{x}+5e_{y}-e_{z},\ u=\text{-}2e_{x}+7e_{y}+e_{z}$
+\item $u+v=\begin{bmatrix}1 \\ 12\\ 0\end{bmatrix}$
+\end{enumerate}
+
+\item Skalärprodukt
+\begin{enumerate}
+\item Ta produkten av de tal som är i samma plan och summera alla dessa produkter. Ex en 2d vektors skalärprodukt är $v \cdot u = v_{x}*u_{x}+v_{y}*u_{y} $ alternativt om man känner vinkeln mellan vektorerna $v \cdot u = ||v||\cdot||u||\cos\theta$
+\item $2+8=10$. Alternativt ta fram vinkeln och längderna, använd formeln och få samma resultat. 
+\item Poängen här är att skalärprodukten ger er ett tal, och inte en vektor. Den ger er även information om vinkeln mellan vektorerna. Man kan också se det som att det är den ena vektorn A's projektion på B gånger B's längd. 
+\item $4+4=8$ Det vill säga längden av $\vec{v}$ i kvadrat.
+\item De är ortogonala.
+\end{enumerate}
+\end{enumerate} 
+
+Tänk om jag vore en skalärprodukt finns även på Spotify)\\
+https://www.youtube.com/watch?v=Q46b7yQ6o5o
+\end{document}
