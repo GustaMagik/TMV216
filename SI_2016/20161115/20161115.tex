@@ -1,0 +1,129 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{scalerel}
+
+\DeclareMathOperator*{\Bigcdot}{\scalerel*{\cdot}{\bigodot}}
+
+
+\title{Supplemental Instructions}
+\author{Niklas Gustafsson \\ 
+		\small{niklgus@student.chalmers.se}
+}
+\date{
+      2016-11-15
+     }
+
+\begin{document}
+\maketitle
+\subsection*{Vektorrummet}
+\subsubsection*{1.}
+Låt vektorn $\vec{v}=\begin{bmatrix}-2 \\ -1 \\ 2 \\ 3 \\ 6 \end{bmatrix}$ och $\vec{u}=\begin{bmatrix}-2 \\ 4 \\ -3 \\ 4 \\ -1 \end{bmatrix}$.
+\begin{itemize}
+\item[a) ] Beräkna $2\cdot\vec{v}-3\cdot\vec{u}$.
+\item[b) ] Beräkna $3\cdot\vec{v}+2\cdot\vec{u}$.
+\item[c) ] Är $\vec{v}$ och $\vec{u}$? ortogonala
+\item[d) ] Vad kallas det vektorrum som $\vec{v}$ tillhör? 
+\end{itemize}
+
+
+\subsection*{Linjära ekvationssystem}
+
+I varje uppgift ber jag er göra en geometrisk tolkning av det ni kommer fram till. Det är inte den viktigaste poängen med uppgiften så lägg inte ner alltför mycket tid på det, men det kan vara bra att fundera på vad ni "egentligen" gör när ni löser ekvationssystem. 
+
+\subsubsection*{2.}
+Antag att ni har ekvationssystemet:
+\begin{math}
+	\begin{cases}
+	x - 2 \cdot y = 5 \\
+	4 \cdot x + y = 3 \\
+	\end{cases}
+\end{math}
+
+\begin{itemize}
+\item[a) ] Hur många obekanta innehåller systemet?
+\item[b) ] Uttryck ekvationssystemet på matris-vektor form.
+\item[c) ] Lös ekvationssystemet. Vad kallas den metod som ni använder?
+\item[d) ] Om det finns lösningar till ekvationssystemet, kan ni göra en geometrisk tolkning av det?
+\end{itemize}
+
+\subsubsection*{3.}
+Lös ekvationssystemet: 
+\begin{math}
+	\begin{cases}
+	x - 2 \cdot y = -1 \\
+	-x + 3 \cdot y = 3 \\
+	\end{cases}
+	\\
+	\\
+\end{math}
+Kan ni göra en geometrisk tolkning av lösningen?
+
+
+\subsubsection*{4.}
+Lös ekvationssystemet: 
+\begin{math}
+	\begin{cases}
+	4x - 8 \cdot y = 8 \\
+	-x + 2 \cdot y = 2 \\
+	\end{cases}
+	\\
+	\\
+\end{math}
+Kan ni göra en geometrisk tolkning av lösningen?
+
+\subsubsection*{5.}
+Lös ekvationssystemet: 
+\begin{math}
+	\begin{cases}
+	2 \cdot x - 3 \cdot y  + z = 8 \\
+	-2 \cdot x + 4 \cdot y -z = 2 \\
+	4 \cdot x - 6 \cdot y  + 2 \cdot z = 16 \\
+	\end{cases}
+	\\
+	\\
+\end{math}
+Kan ni göra en geometrisk tolkning av lösningen?
+
+\subsubsection*{6.}
+Lös ekvationssystemet:
+\begin{math}
+	\begin{cases}
+	4 \cdot x - 5 \cdot y  + z = 3 \\
+	-2 \cdot x + 2 \cdot y - 2 \cdot z = 11 \\
+	12 \cdot x - 14 \cdot y  + 3 \cdot z = 1 \\
+	\end{cases}
+	\\
+	\\
+\end{math}
+Kan ni göra en geometrisk tolkning av lösningen?
+
+
+\subsubsection*{7.}
+Bestäm alla lösningar till det homogena ekvationssystemet:
+\begin{math}
+	\\
+	\begin{cases}
+	2 \cdot x_1 + 3 \cdot x_4  - x_3 + x_4 = 0 \\
+	-x_1 + 4 \cdot x_2 -2 \cdot x_3 -2 \cdot x_4 = 0 \\
+	3 \cdot x_1 - x_2  + x_3 + 3 \cdot x_4 = 0 \\
+	\end{cases}
+	\\
+	\\
+\end{math}
+Kan ni göra en geometrisk tolkning av lösningen?
+
+\subsubsection*{8.}
+Antag att ni har följande mätdata: $\\\\$ 
+\begin{tabular}{|l|l|l|l|l|l|}
+	\hline
+	x & 1 & 2 & 3 & 4 & 5 \\ \hline
+	y & 2 & 4 & 5 & 7 & 8 \\ \hline
+\end{tabular} $\\\\$
+\noindent
+Kan ni finna en rät linje på formen $y = k \cdot x + m$ som stämmer så bra överens som möjligt med denna data? Hint: Betrakta problemet som ett överbestämt ekvationssystem.
+
+\end{document}
