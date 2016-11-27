@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{scalerel}
+
+\title{Supplemental Instructions}
+\author{Niklas Gustafsson \\ 
+		\small{niklgus@student.chalmers.se} \\
+		Gustav Örtenberg \\ 
+		\small{gusort@student.chalmers.se}
+}
+\date{
+      2016-11-29
+     }
+
+\begin{document}
+\maketitle
+
+\subsection*{Determinanter}
+\subsubsection*{1.}
+Beräkna determinanterna till följande matriser. Baserat på determinanterna, kan ni säga om någon av matriserna är inverterbara?
+\begin{itemize}
+	\item[a) ] $\begin{bmatrix}1 & 2 \\ 3 & 5\end{bmatrix}$
+	\item[b) ] $\begin{bmatrix}-2 & 10 \\ 1 & 5\end{bmatrix}$
+	\item[c) ] $\begin{bmatrix}1 & 2 & 3\\ 2 & 1 & 9 \\ 3 & 6 & -1\end{bmatrix}$
+	\item[d) ] $\begin{bmatrix}3 & 6 & 9\\ 2 & 7 & -2 \\ 4 & 11 & 24\end{bmatrix}$
+	\item[e) ] $\begin{bmatrix} 2 & 4 & 8 & 4\\ 3 & 9 & -6 & -3 \\ 1 & 2 & 3 & 4 \\ 2 & 3 & 5 & 7 \end{bmatrix}$
+	\item[f) ] $\begin{bmatrix} 2 & 4 & 8 & 4\\ 3 & 9 & -6 & -3 \\ 1 & 2 & 3 & 4 \\ 1 & 2 & 3 & 4 \end{bmatrix}$
+\end{itemize}
+
+\subsection*{Linjära avbildningar}
+\subsubsection*{2.}
+Låt $f(\vec{x}) = f(\begin{bmatrix}x \\ y\end{bmatrix}) = \begin{bmatrix}x + y \\ x - y\end{bmatrix}$. 
+\begin{itemize}
+	\item[a) ] Bevisa att $f(\vec{x})$ är en linjär avbildning.
+	\item[b) ] Låt $\vec{v} = \begin{bmatrix}1 \\ 3\end{bmatrix}$. Beräkna $f(\vec{v})$. 
+	\item[c) ] Beräkna standardmatrisen $A$ för $f(\vec{x})$. 
+	\item[d) ] Beräkna nu $\vec{v} \cdot A$ och verifiera att det stämmer med ert svar i b). 
+\end{itemize}
+
+\subsubsection*{3.}
+Låt $g(\vec{x}) = f(\begin{bmatrix}x \\ y\end{bmatrix}) = \begin{bmatrix}2 \cdot y \\ 3 \cdot x\end{bmatrix}$.
+\begin{itemize} 
+	\item[a) ] Bevisa att $g(\vec{x})$ är en linjär avbildning.
+	\item[b) ] Låt $\vec{v} = \begin{bmatrix}1 \\ 3\end{bmatrix}$. Beräkna $f(\vec{v})$. 
+	\item[c) ] Beräkna standardmatrisen $A$ för $g(\vec{x})$. 
+	\item[d) ] Beräkna nu $\vec{v} \cdot A$ och verifiera att det stämmer med ert svar i b). 
+	\item[e) ] Låt nu $h(\vec{x}) = f(g(\vec{x})).$ Är detta en linjär avbildning?
+	\item[f) ] Kan ni beräkna en standardmatris för $h(\vec{x})$?
+\end{itemize}
+
+\subsubsection*{4.}
+Bestäm standardmatrisen för den linjära avbildning i $R^2$ som först roterar $\frac{\pi}{3}$ och sedan projicerar på y-axeln.
+
+\subsubsection*{5.}
+\begin{itemize}
+	\item[a) ] Bestäm standardmatrisen för den linjära avbildning i planet som ges av spegling i linjen $y=k \cdot x$. 
+	\item[b) ] Vad får ni som resultat om ni applicerar detta på vektorn $\begin{bmatrix}2 \\ 2\end{bmatrix}$ med $k=3$.
+\end{itemize}
+
+\subsection*{Affina avbildningar}
+%En affin avbildning är en sammansättning av en linjär avbildning och en translation
+\subsubsection*{6.}
+En affin avbildning är en (godtycklig) sammansättning av en linjär avbildning och en
+translation. Bevisa att en sammansättning av två affina avbildningar också är en affin avbildning.
+
+
+\end{document}
