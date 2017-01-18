@@ -1,0 +1,37 @@
+Varje U(ppgift)-fil har en korresponderande F(acit)-fil. 
+Nedan listas och skall listas innehållet/orådet varje uppgift berör.
+
+ 1: Enkla vektoroperationer (+, -, ggr med skalär)
+ 2: Enkla vektoroperationer (+, -, ggr med skalär), Avläsning från graf, Vinkel mellan
+ 3: Enkla vektoroperationer (+, -, ggr med skalär), Enhetsvektorer, baser
+ 4: Enkla vektoroperationer (+, -, ggr med skalär), Vinkel mellan
+ 5: Enkla vektoroperationer (+, -, ggr med skalär), Baser, linjärkombination
+ 6: Skalärprodukt
+ 7: Ortogonalprojektion, Vinkel mellan, Spegling
+ 8: Ortogonalprojektion, Spegling
+ 9: Normalform, Parameterform, 
+10: 
+11: Vektor i R^n, Enkla vektoroperationer (+, -, ggr med skalär), Vinkel mellan
+12: Vektor i R^n, Enkla vektoroperationer (+, -, ggr med skalär), Ortogonalitet
+13: Gausselimination, Tolkning av matris, 2x3 
+14: Gausselimination, Tolkning av matris, 2x3
+15: Gausselimination, Tolkning av matris, 2x3
+16: Gausselimination, Tolkning av matris, Linje på parameter form, 3x4
+17: Gausselimination, Tolkning av matris, 3x4
+18: Gausselimination, Tolkning av matris, plan i rummet, 3x4
+19: Gausselimination, Problemlösning, 5x6
+20: Normalekvationen, Approximeria linje från överbestämt system
+21: Underrum, Kolumnrum, Rang, Dimension
+22: Matrisalgebra, Symmetri, Transponat
+23: Determinant, Höger/Vänster-orientering
+24: Determinant
+25: Determinat, Area/Volym
+26: Kryssprodukt
+27: Gausselimination, 3x4
+28: 
+29: 
+30: 
+31: 
+32: 
+33: 
+34: 

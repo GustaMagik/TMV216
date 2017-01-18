@@ -1,0 +1,154 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{scalerel}
+
+\DeclareMathOperator*{\Bigcdot}{\scalerel*{\cdot}{\bigodot}}
+
+
+\title{Supplemental Instructions}
+\author{Niklas Gustafsson \\ 
+		\small{niklgus@student.chalmers.se}
+}
+\date{
+      2016-11-15
+     }
+
+\begin{document}
+\maketitle
+\subsection*{Vektorrummet}
+\subsubsection*{1.}
+\begin{itemize}
+\item[a) ] $\begin{bmatrix}-4+6\\-2-12\\4+9\\6-12\\12+3\end{bmatrix}=\begin{bmatrix}2\\-14\\13\\-6\\15\end{bmatrix}$
+\item[b) ] $\begin{bmatrix}-6-4\\-3+8\\6-6\\9+8\\18-2\end{bmatrix}=\begin{bmatrix}-10\\5\\0\\17\\16\end{bmatrix} $
+\item[c) ] $\vec{v}\cdot\vec{u}=4-4-6+12-6=0$ Ja!
+\item[d) ] $\mathbb{R}^5$
+\end{itemize}
+
+
+\subsection*{Linjära ekvationssystem}
+\subsubsection*{2.}
+
+\begin{itemize}
+\item[a) ] 2.
+\item[b) ] $\begin{bmatrix}\vec{v_x} & \vec{v_y}\end{bmatrix}$
+\item[c) ] $\begin{bmatrix}1&-2&5\\4&1&3\end{bmatrix}\thicksim\begin{bmatrix}1&-2&5\\0&9&-17\end{bmatrix}\thicksim\begin{bmatrix}1&0&\frac{47}{9}\\0&1&\frac{-17}{9}\end{bmatrix}$
+\item[d) ] Linjerna $x-2y=5,\ 4x+y=3$ skär i punkten $(\frac{47}{9},\frac{-17}{9} )$
+\end{itemize}
+
+\subsubsection*{3.}
+$\begin{bmatrix}
+1 &2 &-1 \\
+-1 &3 & 3
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+1 & 2&-1 \\
+0 &5 &2 
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+1 &0 &\frac{-9}{5} \\
+0 &1 &\frac{2}{5} 
+\end{bmatrix}
+$ Linjerna korsar varandra i $(\frac{-9}{5},\frac{2}{5})$
+
+\subsubsection*{4.}
+$\begin{bmatrix}
+4 &-8 &8 \\
+-1 &2 &2 
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0 &0 &16 \\
+ 1&-2 &-2 
+\end{bmatrix}
+$ Lösning saknas, lijnerna korsar ej varandra.
+
+\subsubsection*{5.}
+$\begin{bmatrix}
+2&-3&1&8\\
+-2&4&-1&2\\
+4&-6&2&16
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+2&-3&1&8\\
+0&1&0&10\\
+0&0&0&0
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+2&0&1&38\\
+0&1&0&10\\
+0&0&0&0
+\end{bmatrix}
+$\\ Oändligt antal lösningar. Sätt $z=t$ och erhåll $x=19-t/2,\ y=10,\ z=t$
+
+\subsubsection*{6.}
+$\begin{bmatrix}
+4 &-5 &1 &3 \\
+-2&2 &-2 &11 \\
+12 &-14 &3 &1
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0 &-1 &-3 &25 \\
+-2 &2 &-2 &11 \\
+0 &-2 &-9 &67
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0 &-1 &-3 &25 \\
+-2 &0 &-8 &61 \\
+0 &0 &-3 &17
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0 &-1 &-3 &25 \\
+1 &0 &4 &-\frac{61}{2} \\
+0 &0 &1 &-\frac{17}{3}
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0 &1 &0 &8 \\
+1 &0 &0 &-\frac{47}{6}\\
+0 &0 &1 &-\frac{17}{3}
+\end{bmatrix}
+$ De tre linjerna möts i punkten $(x=-\frac{47}{6},\ y=-8,\ z=-\frac{17}{3})$
+
+\subsubsection*{7.}
+$\begin{bmatrix}
+2&3&-1&1\\
+-1&4&-2&-2\\
+3&-1&1&3
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0&11&-5&-3\\
+-1&4&-2&-2\\
+0&11&-5&-3
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0&11&-5&-3\\
+-1&4&-2&-2\\
+0&0&0&0
+\end{bmatrix}\thicksim
+\begin{bmatrix}
+0&11&-5&-3\\
+-1&0&-\frac{2}{11}&-\frac{10}{11}\\
+0&0&0&0
+\end{bmatrix}
+$\\
+Sätt $x_3=s,\ x_4=t$ och erhåll $\begin{bmatrix}x_1\\x_2\\x_3\\x_4\end{bmatrix}=s\cdot\begin{bmatrix}-\frac{2}{11}\\\frac{5}{11}\\1\\0\end{bmatrix}t\cdot\begin{bmatrix}-\frac{10}{11}\\\frac{3}{11}\\0\\1\end{bmatrix}$
+\\\\
+Geometrisk tolkning är ett plan i $\mathbb{R}^4$ som korsar origo.
+\subsubsection*{8.}
+Ställ upp som ekvationsystem och Gausseliminera. Värdena skall bli:\\
+Kaffe: 7kr\\
+Te: 5kr\\
+Körsbärspaj: 8kr\\
+Choklad: 12kr\\
+Kanelbulle: 7kr
+
+\subsubsection*{9.}
+Bestäm normalekvationen: $A^T\cdot A\mathbf{x}+A^T\cdot\mathbf{b}$.\\
+$A^T\cdot A\mathbf{x}=\begin{bmatrix}1&2&3&4&5\\1&1&1&1&1\end{bmatrix}\begin{bmatrix}1&1\\2&1\\3&1\\4&1\\5&1\end{bmatrix}=\begin{bmatrix}55&15\\15&5\end{bmatrix}$\\
+$A^T\cdot\mathbf{b}=\begin{bmatrix}1&2&3&4&5\\1&1&1&1&1\end{bmatrix}\begin{bmatrix}2\\4\\5\\7\\8\end{bmatrix}=\begin{bmatrix}93\\26\end{bmatrix}$
+$\begin{bmatrix}55&15&93\\15&5&26\end{bmatrix}\thicksim\begin{bmatrix}10&0&15\\15&5&26\end{bmatrix}\thicksim\begin{bmatrix}1&0&\frac{3}{2}\\0&5&\frac{7}{2}\end{bmatrix}$\\
+Vilket ger $k=\frac{3}{2},\ m=\frac{7}{10}$.
+\end{document}
