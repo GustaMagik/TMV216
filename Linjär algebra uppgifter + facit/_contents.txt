@@ -28,7 +28,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 25: Determinat, Area/Volym
 26: Kryssprodukt
 27: Gausselimination, 3x4
-28: 
+28: Skalärprodukt, Kryssprodukt/vektorprodukt, 
 29: 
 30: 
 31: 
