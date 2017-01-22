@@ -1,18 +1,18 @@
 Varje U(ppgift)-fil har en korresponderande F(acit)-fil. 
 Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 
- 1: Enkla vektoroperationer (+, -, ggr med skalär)
- 2: Enkla vektoroperationer (+, -, ggr med skalär), Avläsning från graf, Vinkel mellan
- 3: Enkla vektoroperationer (+, -, ggr med skalär), Enhetsvektorer, baser
- 4: Enkla vektoroperationer (+, -, ggr med skalär), Vinkel mellan
- 5: Enkla vektoroperationer (+, -, ggr med skalär), Baser, linjärkombination
+ 1: Vektoroperationer
+ 2: Vektoroperationer, Avläsning från graf, Vinkel mellan
+ 3: Vektoroperationer, Enhetsvektorer, baser
+ 4: Vektoroperationer, Vinkel mellan
+ 5: Vektoroperationer, Baser, linjärkombination
  6: Skalärprodukt
  7: Ortogonalprojektion, Vinkel mellan, Spegling
  8: Ortogonalprojektion, Spegling
  9: Normalform, Parameterform, 
 10: 
-11: Vektor i R^n, Enkla vektoroperationer (+, -, ggr med skalär), Vinkel mellan
-12: Vektor i R^n, Enkla vektoroperationer (+, -, ggr med skalär), Ortogonalitet
+11: Vektor i R^n, Vektoroperationer, Vinkel mellan
+12: Vektor i R^n, Vektoroperationer, Ortogonalitet
 13: Gausselimination, Tolkning av matris, 2x3 
 14: Gausselimination, Tolkning av matris, 2x3
 15: Gausselimination, Tolkning av matris, 2x3
@@ -29,9 +29,28 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 26: Kryssprodukt
 27: Gausselimination, 3x4
 28: Skalärprodukt, Kryssprodukt/vektorprodukt, 
-29: 
-30: 
-31: 
-32: 
-33: 
-34: 
+29: Linjärkombination, Vektoroperationer
+30: Vektoroperationer, Avläsning från graf, Vinkel mellan, Skalärprodukt
+31: Kryssprodukten, Arean av parrallellogram
+32: Spegling i linjen, Ortognal projektion
+33: Linjens ekvation
+34: Linjens ekvation, parrallella linjer
+35: Planets ekvation
+36: Avstånd mellan
+37: Matrisoperationer
+38: Determinant
+39: Determinant, Invers, Matrismultiplikation
+40: 
+41: 
+42: 
+43: 
+44: 
+45: 
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53:  
