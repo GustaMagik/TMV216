@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.1)  25 JAN 2017 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.1)  26 JAN 2017 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lv2_2017_01_20.tex
+**./Lv2_2017_01_20.tex
 (./Lv2_2017_01_20.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -486,7 +486,7 @@ Package: etoolbox 2016/12/26 v2.3 e-TeX tools for LaTeX (JAW)
 \LMex=\skip54
 \LMpt=\skip55
 )
-No file Lv2_2017_01_20.aux.
+(./Lv2_2017_01_20.aux)
 \openout1 = `Lv2_2017_01_20.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -501,6 +501,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
@@ -584,13 +585,13 @@ or enter new name. (Default extension: tex)
 Enter file name: 
 [2] (./Lv2_2017_01_20.aux) ) 
 Here is how much of TeX's memory you used:
- 3811 strings out of 493013
- 46480 string characters out of 6136994
- 117895 words of memory out of 5000000
+ 3813 strings out of 493013
+ 46520 string characters out of 6136994
+ 118895 words of memory out of 5000000
  7267 multiletter control sequences out of 15000+600000
  15273 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,26p,808b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,7n,26p,810b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-supe
 r/cm-super-t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
@@ -602,7 +603,7 @@ s/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm17
 28.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Lv2_2017_01_20.pdf (2 pages, 113298 bytes).
+Output written on Lv2_2017_01_20.pdf (2 pages, 112719 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
