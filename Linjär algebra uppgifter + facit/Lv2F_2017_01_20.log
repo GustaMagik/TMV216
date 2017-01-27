@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.4)  27 JAN 2017 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.4)  27 JAN 2017 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lv2_2017_01_20.tex
-(./Lv2_2017_01_20.tex
+**Lv2F_2017_01_20.tex
+(./Lv2F_2017_01_20.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 29 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -483,8 +483,8 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \LMex=\skip54
 \LMpt=\skip55
 )
-(./Lv2_2017_01_20.aux)
-\openout1 = `Lv2_2017_01_20.aux'.
+(./Lv2F_2017_01_20.aux)
+\openout1 = `Lv2F_2017_01_20.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -569,41 +569,41 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./U30.tex)
-(./U38.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+) (./F30.tex)
+(./F38.tex) (./F32.tex) (./F33.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./F34.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--29
 
  []
 
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./U32.tex) (./U33.tex) (.
-/U34.tex) (./U35.tex) (./U36.tex) (./U41.tex [2]) (./U43.tex) (./U42.tex)
-[3] (./Lv2_2017_01_20.aux) ) 
+(./F35.tex) (./F36.tex) (./F41.tex) (./F43.tex [2]) (./F42.tex) [3]
+(./Lv2F_2017_01_20.aux) ) 
 Here is how much of TeX's memory you used:
- 3815 strings out of 494374
- 46724 string characters out of 6164954
- 116206 words of memory out of 5000000
- 7033 multiletter control sequences out of 15000+600000
- 15273 words of font info for 47 fonts, out of 8000000 for 9000
+ 3817 strings out of 494374
+ 46755 string characters out of 6164954
+ 118212 words of memory out of 5000000
+ 7034 multiletter control sequences out of 15000+600000
+ 16139 words of font info for 48 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 37i,8n,26p,808b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecti1000.600pk> </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.60
-0pk> </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/
-nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/nyaa/.texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/nyaa/.texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/linew10.pfb>
-Output written on Lv2_2017_01_20.pdf (3 pages, 98144 bytes).
+ 37i,14n,26p,809b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx1200.600pk> </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk
+> </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/nya
+a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/nyaa/.texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/nyaa/.texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm1200.600pk> </home/nyaa/.texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Lv2F_2017_01_20.pdf (3 pages, 113430 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 211 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

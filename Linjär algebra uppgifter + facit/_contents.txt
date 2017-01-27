@@ -40,10 +40,10 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 37: Matrisoperationer
 38: Determinant
 39: Determinant, Invers, Matrismultiplikation
-40: 
-41: 
-42: 
-43: 
+40: Determinant, Inverterbar, 2x2,3x3,4x4
+41: Linjär avbildning
+42: Linjär avbildning 
+43: Linjär avbildning
 44: 
 45: 
 46: 
