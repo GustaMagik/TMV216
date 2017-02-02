@@ -46,8 +46,8 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 43: Linjär avbildning
 44: Sammansatt linjär avbildning
 45: Tenta IT, Sammansatt linjär avbildning
-46: 
-47: 
+46: Areaförändring, linjär avblidning
+47: Determinant, 4st storlek från 2x2 till 4x4
 48: 
 49: 
 50: 
