@@ -44,7 +44,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 41: Linjär avbildning
 42: Linjär avbildning 
 43: Linjär avbildning
-44: 
+44: Sammansatt linjär avbildning
 45: 
 46: 
 47: 
