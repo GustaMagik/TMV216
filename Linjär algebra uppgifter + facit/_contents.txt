@@ -48,7 +48,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 45: Tenta IT, Sammansatt linjär avbildning
 46: Areaförändring, linjär avblidning
 47: Determinant, 4st storlek från 2x2 till 4x4
-48: 
+48: Tenta IT, alternativa lösningsmetoder: linjär avbildning, linjärkombination, skalärprodukt
 49: 
 50: 
 51: 
