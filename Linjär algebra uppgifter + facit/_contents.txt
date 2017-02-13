@@ -49,7 +49,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 46: Areaförändring, linjär avblidning
 47: Determinant, 4st storlek från 2x2 till 4x4
 48: Tenta IT, alternativa lösningsmetoder: linjär avbildning, linjärkombination, skalärprodukt
-49: 
+49: Tenta IT, Ekvationssystem sätt a & b så att ekvsys får oändligt med lösningar
 50: 
 51: 
 52: 
