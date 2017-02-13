@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.1)  2 FEB 2017 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.1)  13 FEB 2017 08:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,7 +486,7 @@ Package: etoolbox 2016/12/26 v2.3 e-TeX tools for LaTeX (JAW)
 \LMex=\skip54
 \LMpt=\skip55
 )
-No file Lv3F_2017_02_03.aux.
+(./Lv3F_2017_02_03.aux)
 \openout1 = `Lv3F_2017_02_03.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -501,6 +501,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
+
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
@@ -579,8 +580,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./F45.tex) (./F38.tex) (./F47.tex [2]) (./F25.tex) [3] (./Lv3F_2017_02_03.aux)
  ) 
 Here is how much of TeX's memory you used:
- 3814 strings out of 493013
- 46508 string characters out of 6136994
+ 3816 strings out of 493013
+ 46548 string characters out of 6136994
  120901 words of memory out of 5000000
  7266 multiletter control sequences out of 15000+600000
  14587 words of font info for 46 fonts, out of 8000000 for 9000
@@ -598,7 +599,7 @@ live/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2016/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2016/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2016/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1728.pfb>
-Output written on Lv3F_2017_02_03.pdf (3 pages, 143503 bytes).
+Output written on Lv3F_2017_02_03.pdf (3 pages, 143263 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
