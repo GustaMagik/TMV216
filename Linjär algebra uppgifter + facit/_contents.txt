@@ -19,7 +19,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 16: Gausselimination, Tolkning av matris, Linje på parameter form, 3x4
 17: Gausselimination, Tolkning av matris, 3x4
 18: Gausselimination, Tolkning av matris, plan i rummet, 3x4
-19: Gausselimination, Problemlösning, 5x6
+19: Gausselimination, Problemlösning, 5x6 (utmaning)
 20: Normalekvationen, Approximeria linje från överbestämt system
 21: Underrum, Kolumnrum, Rang, Dimension
 22: Matrisalgebra, Symmetri, Transponat
