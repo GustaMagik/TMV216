@@ -8,8 +8,8 @@ de behöver läras om det de lärt sig fel.
 -------------------------------------------
 *Kryssprodukten*
 - Denna fina är bara definerad för vektorer 
-av storlek 3x3. Kan användas för 2x2 om man gör
-dem till 3x3 med 2 nollor i en dimmension.
+av storlek R3. Kan användas för R2 om man gör
+dem till R3 med 2 nollor i en dimmension.
 -------------------------------------------
 *Determinant*
 - Sarrus regel är definerad för 3x3 endast 
