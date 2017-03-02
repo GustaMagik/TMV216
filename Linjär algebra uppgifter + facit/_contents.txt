@@ -50,7 +50,7 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 47: Determinant, 4st storlek från 2x2 till 4x4
 48: Tenta IT, alternativa lösningsmetoder: linjär avbildning, linjärkombination, skalärprodukt
 49: Tenta IT, Ekvationssystem sätt a & b så att ekvsys får oändligt med lösningar
-50: 
-51: 
-52: 
+50: Egenvärden
+51: Diagonalisering
+52: Tenta IT, Grannmatris
 53:  
