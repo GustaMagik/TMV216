@@ -1,10 +1,7 @@
 ﻿The LinAlg-SI-Ledarens Guide to the Galaxy:
 -------------------------------------------
 Denna guide är till för att komma ihåg de
-smågrejer som lätt glömms bort. Man kan enkelt
-glömma dessa och det är lite pinsamt för dig
-men mycket mer förvirrande för eleverna när 
-de behöver läras om det de lärt sig fel. 
+smågrejer som lätt glömms bort. 
 -------------------------------------------
 *Kryssprodukten*
 - Denna fina är bara definerad för vektorer 
@@ -12,8 +9,7 @@ av storlek R3. Kan användas för R2 om man gör
 dem till R3 med 2 nollor i en dimmension.
 -------------------------------------------
 *Determinant*
-- Sarrus regel är definerad för 3x3 endast 
-(varför lär vi oss denna?).  
+- Sarrus regel är definerad för 3x3 endast.  
 -------------------------------------------
 *För stora matriser*
 - Ettan är gnällig. Matriser får inte vara för
