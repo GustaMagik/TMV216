@@ -53,4 +53,21 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 50: Egenvärden
 51: Diagonalisering
 52: Tenta IT, Grannmatris
-53:  
+53: Tenta IT, Markovkedjor
+54: 
+55: 
+56: 
+57: 
+58: 
+59: 
+60: 
+61: 
+62: 
+63: 
+64: 
+65: 
+66: 
+67: 
+68: 
+69: 
+
