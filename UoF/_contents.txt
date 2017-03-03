@@ -54,8 +54,8 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 51: Diagonalisering
 52: Tenta IT, Grannmatris
 53: Tenta IT, Markovkedjor
-54: 
-55: 
+54: Tenta IT, Area, Volym (determinant/kryssprodukt)
+55: Tenta IT, Egenvärde, egenvektor
 56: 
 57: 
 58: 
