@@ -56,15 +56,15 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 53: Tenta IT, Markovkedjor
 54: Tenta IT, Area, Volym (determinant/kryssprodukt)
 55: Tenta IT, Egenvärde, egenvektor
-56: 
-57: 
-58: 
-59: 
-60: 
-61: 
-62: 
-63: 
-64: 
+56: Tenta IT, Ekvationssytem, gausselimination
+57: Tenta IT, Linjär avbildning, Sammansatt avbildning
+58: Tenta IT, Area
+59: Tenta IT, Ekvationssystem, parametriserad form
+60: Tenta IT, Egenvärden, egenvektorer
+61: Tenta IT, ON-bas
+62: Tenta IT, Markovkedja
+63: Tenta IT, egenvärde, egenvektor
+64: Tenta IT, egenvärde, gausselimniation/determinan
 65: 
 66: 
 67: 
