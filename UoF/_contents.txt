@@ -63,11 +63,13 @@ Nedan listas och skall listas innehållet/orådet varje uppgift berör.
 60: Tenta IT, Egenvärden, egenvektorer
 61: Tenta IT, ON-bas
 62: Tenta IT, Markovkedja
-63: Tenta IT, egenvärde, egenvektor
-64: Tenta IT, egenvärde, gausselimniation/determinan
-65: 
-66: 
-67: 
-68: 
-69: 
+63: Tenta IT, Egenvärde, Egenvektor
+64: Tenta IT, Egenvärde, Gausselimniation/Determinan
+65: Tenta IT, Linjär avbildning
+66: Tenta IT, Avstånd till linjen
+67: Tenta IT, Determinant
+68: Tenta IT, Egenvärden, Egenvektor
+69: Tenta IT, Baser
+70: 
+
 
